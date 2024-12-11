@@ -1,1 +1,14 @@
+# Ignorar todos os arquivos HTML
+*.html
+
+# Ignorar HTML em pastas específicas
+/build/*.html
+/dist/*.html
+
+# Incluir apenas index.html
+!index.html
+
+# Ignorar backups de editores
+*~
+*.swp
 
